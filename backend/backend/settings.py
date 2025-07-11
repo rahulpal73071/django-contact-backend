@@ -25,7 +25,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY", "django-insecure-placeholder")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get("DEBUG", "False") == "True"
 
-ALLOWED_HOSTS = ["https://rahul-portfolio-silk.vercel.app"]
+ALLOWED_HOSTS = ["https://rahul-portfolio-silk.vercel.app" , '*']
 
 CORS_ALLOW_ALL_ORIGINS = True
 
